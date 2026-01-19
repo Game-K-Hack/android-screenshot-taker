@@ -8,6 +8,8 @@ Python application that automatically takes screenshots of an application. It is
 ## Usage
 You must have **Android Studio** installed and at least one **AVD** (Android Virtual Device) configured. Additionally, make sure that all required Python libraries are properly installed. Then simply run the `main.py` application.
 
+![screenshot](screenshot.png)
+
 ## Customization
 If you want to adapt this application to your own app, you can create your own commands using the **adb** tool by modifying the `service/taker.py` file.
 

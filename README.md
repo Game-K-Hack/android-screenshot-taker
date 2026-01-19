@@ -8,6 +8,8 @@ Application Python permettant de prendre automatiquement des captures d’écran
 ### Utilisation
 Vous devez disposer du logiciel **Android Studio** et avoir installé au moins un **AVD** (Android Virtual Device). De plus, assurez-vous d’avoir correctement installé toutes les bibliothèques Python nécessaires. Il suffit ensuite de lancer l’application `main.py`.
 
+![screenshot](screenshot.png)
+
 ### Modification
 Si vous souhaitez adapter cette application à la vôtre, vous pouvez créer vos propres commandes en utilisant l’outil **adb**, en modifiant le fichier `service/taker.py`.
 
