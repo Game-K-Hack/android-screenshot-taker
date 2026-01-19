@@ -78,3 +78,7 @@ class AndroidAutoTaker:
     def add_text(self, text:str) -> None:
         subprocess.run(f"adb shell input text '{text}'", shell=True)
         time.sleep(0.5)
+
+    def dark_mode(self, mode:bool=True) -> None:
+        subprocess.run(f'adb shell "cmd uimode night {"yes" if mode else "no"}"', shell=True)
+        time.sleep(0.5)
